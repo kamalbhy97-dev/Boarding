@@ -21,7 +21,7 @@ const MONGO_URI =
 
 app.use(
     cors({
-        origin: "http://localhost:3000",
+        origin: "mongodb+srv://kamalbhy97_db_user:RXkZIbCSuHinZNBl@cluster0.bijeqli.mongodb.net/?appName=Cluster0",
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
